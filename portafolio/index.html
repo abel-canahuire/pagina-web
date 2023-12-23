@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">portafolio general</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+            </div>
+            <h1>ABEL CANAHUIRE  VILCA </h1>
+            <h2>estudiante de arquitectura  - Experto en programacion</h2>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>hola soy abel.</span> la trayectoria en el camino se exitoso para poder avansar y creser  con optimismo y responsabilidad </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            15-11-200
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            92789489
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            abelcanahuire@gmail.com
+                        </li>
+                        <li>
+                            <strong>edad</strong>
+                            22 años
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            cusco espinar-espinar
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>estudiante</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>PRIMARIA</h4>
+                        <span class="casa">simon bolivar</span>
+                        <span class="fecha">2007 - 2013</span>
+                        <p> SICUANI CANCHIS CULNMINANDO MI PRIMARIA  </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>SECUNDARIA</h4>
+                        <span class="casa">almirante miguel grau</span>
+                        <span class="fecha">2014 - 2018</span>
+                        <p>en la provicia de espinar culminando mi secundaria</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>ARQUITECTURA</h4>
+                        <span class="casa">instituto tecnologico publico espinar</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>cursando la carrera de arquitectura plataformas en la provincia de espinar </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>TIENDA DE COMPUTO</h4>
+                        <span class="casa">auxiliar de TI</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>auxiliar  de camaras  de una tienda se basa en poner camaras de seguridad en tiendas sentros comersiales oficinas municipios tuneles</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>HOSPITAL</h4>
+                        <span class="casa">auxiliar de citas</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>separa su sita para el tipo de rebecion medica con el doctor en el tipo de especialidades con una apllicacion del hospital aplicacion del estado </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>ACCIONISTA DE FACEBOOK</h4>
+                        <span class="casa">ventas de contenido educatibos</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>publicamos videos curso pdf todo sobre educacion nuetros clientes pueden ver acceder a nuestras publicaciones y comprar con fines de educarse </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+        </div>
+    </section>
+
+    <!-- SECCION P DE ALIENTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder=" NUMERO : 927898489">
+                    <input type="text" placeholder="EMAIL : abelcanahuire@gmail.com">
+                    <input type="text" placeholder="FACEBOOK : abel santos">
+                    <input type="text" placeholder="INSTAGRAN : anbelc10">
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                PERU-CUSCO-ESPINAR 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                CALLE-ARICA-S/N
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                BARRIO-SERCADO
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
